@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toyota</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1c1c1c;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    nav {
+      background-color: #333;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    section {
+      padding: 20px;
+    }
+    footer {
+      background-color: #1c1c1c;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    .image-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .image-gallery img {
+      width: 300px;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Toyota</h1>
+  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#products">Products/Services</a>
+  </nav>
+  <section id="home">
+    <div class="container">
+      <h2>Homepage</h2>
+      <div class="image-gallery">
+        <img src="toyota1.png" alt="Toyota Car 1">
+        <img src="toyota2.png" alt="Toyota Car 2">
+        <img src="toyota3.png" alt="Toyota Car 3">
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <div class="container">
+      <h2>About Toyota</h2>
+      <p>Toyota is a Japanese multinational automotive manufacturer headquartered in Toyota City, Japan. It was founded by Kiichiro Toyoda in 1937.</p>
+      <img src="factory.jpg" alt="Toyota Factory">
+    </div>
+  </section>
+  <section id="products">
+    <div class="container">
+      <h2>Products/Services</h2>
+      <h3>Vehicles</h3>
+      <div class="image-gallery">
+        <img src="toyota camry.png" alt="Toyota Camry">
+        <img src="toyota corolla.jpg" alt="Toyota Corolla">
+        <img src="toyota rav4.jpg" alt="Toyota RAV4">
+      </div>
+      <div>
+      <h3>Services</h3>
+      <p>We offer maintenance and repair services for Toyota vehicles.</p>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2024 Toyota. Defante.</p>
+  </footer>
+</body>
+</html>
